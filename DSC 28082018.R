@@ -1,0 +1,7 @@
+a = c(10,20,15,43,76,41,25,46)
+b = factor(c("m","f","m","f","m","f","m","f"))
+c = c(2,5,8,3,6,1,5,6)
+cobal = data.frame(a,b,c)
+colnames(cobal) = c("umur","JK","Saudara")
+write.table(cobal,"C:/Users/Public/Downloads/coba2.txt")
+write.csv(cobal,"C:/Users/Public/Downloads/coba2.csv")
